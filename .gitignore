@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.python-version
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# PyInstaller / build output
+build/
+dist/
+*.spec
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.idea/
+*.swp
+
+# Media samples and local output (never commit large binaries)
+*.mp3
+*.m4a
+*.wav
+*.flac
+*.ogg
+*.opus
+*.aac
+*.mkv
+*.mp4
+*.mov
+*.webm
+*.avi
+*.ts
+!screenshot.png

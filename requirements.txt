@@ -1,0 +1,8 @@
+# GUI
+PyQt5>=5.15.9
+pyqtgraph>=0.13.3
+numpy>=1.22
+
+# Media engine fallback: ships a self-contained FFmpeg binary that is used
+# automatically when no system FFmpeg is installed (see README section 2).
+imageio-ffmpeg>=0.4.9
